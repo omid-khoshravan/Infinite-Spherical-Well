@@ -38,7 +38,7 @@ $$A_{Nl}^{(a)} = \frac{\sqrt{2}}{a^{3/2}|j_{l+1}(\beta_{Nl})|}$$
 
 The corresponding energy eigenvalue is
 
-$$E_{Nl}^{(a)} = \frac{\hbar^2\beta_{Nl}^2}{a^{3/2}|j_{l + 1}(\beta_{Nl})|}$$
+$$E_{Nl}^{(a)} = \frac{\hbar^2\beta_{Nl}^2}{2ma^2}$$
 
 ## Sudden Expansion
 
@@ -62,7 +62,7 @@ $$\alpha_{N'} = \langle N'lm;2a|Nlm;a\rangle$$
 
 After carrying out the angular integration, this inner product reduces to:
 
-$$\alpha_{N'} = \int_0^a r^2R_{Nl}^{(2a)}(r)dr$$
+$$\alpha_{N'} = \int_0^a r^2 R_{N'l}^{(2a)}(r) R_{Nl}^{(a)}(r) dr$$
 
 The coefficients are evaluated numerically in the code, with a direct numerical integration used in the special case where the closed-form expression becomes numerically singular.
 
@@ -96,7 +96,7 @@ The calculation is divided into several Python modules:
 
 The radial probability density is animated over a chosen time interval following the sudden expansion. The resulting animation is saved as a GIF:
 
-![Radial probability density animation](infinite_spherical_well.gif)
+![Radial probability density animation](expanding_well.gif)
 
 ## Requirements
 The project uses:
@@ -110,7 +110,7 @@ The project uses:
 Clone the repository and install the required Python packages:
 ```bash
 git clone https://github.com/omid-khoshravan/Infinite-Spherical-Well.git
-cd Infinitie-Spherical-Well
+cd Infinite-Spherical-Well
 pip install -r requirements.txt
 ```
 
