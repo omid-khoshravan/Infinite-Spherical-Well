@@ -13,11 +13,14 @@ The calculation is performed using spherical Bessel functions and an expansion o
 ## Physical Setup
 
 For an infinite spherical well of radius $a$, the potential is 
-$$V(r) = 
+
+$$
+V(r) = 
 \begin{cases}
 0, & r < a, \\
 \infinity, & r\geq a.
-\end{cases}$$
+\end{cases}
+$$
 
 The stationary states can be written as 
 $$\psi_{Nlm}(r, \theta, \phi) = R_{Nl}(r)Y_l^m(\theta, \phi)$$
