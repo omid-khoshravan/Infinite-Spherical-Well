@@ -70,7 +70,7 @@ The coefficients are evaluated numerically in the code, with a direct numerical 
 
 The radial part of the time-dependent wavefunction is therefor
 
-$$R(r, t) = \sum_{N' = 1}^{N_max} alpha_{N'}R_{N'l}^{(2a)}(r)e^{-iE_{N'l}^{(2a)}t/\hbar},$$
+$$R(r, t) = \sum_{N' = 1}^{N_\max} \alpha_{N'}R_{N'l}^{(2a)}(r)e^{-iE_{N'l}^{(2a)}t/\hbar},$$
 
 where $N_{\max}$ determines the number of expanded-well eigenstates included in the numerical approximation.
 
