@@ -38,7 +38,7 @@ $$A_{Nl}^{(a)} = \frac{\sqrt{2}}{a^{3/2}|j_{l+1}(\beta_{Nl})|}$$
 
 The corresponding energy eigenvalue is
 
-$$E_{Nl}^{(a)} = \frac{\hbar^2\beta_{Nl}^2}{a^{3/2}|j_{l + 1}(\beta_{Nl})|$$
+$$E_{Nl}^{(a)} = \frac{\hbar^2\beta_{Nl}^2}{a^{3/2}|j_{l + 1}(\beta_{Nl})}|$$
 
 ## Sudden Expansion
 
@@ -58,7 +58,7 @@ Because the expansion preserves spherical symmetry, $l$ and $m$ remain unchanged
 
 The expansion coefficients are given by
 
-$$\alpha_{N'} = \langleN'lm;2a|Nlm;a\rangle$$
+$$\alpha_{N'} = \langle N'lm;2a|Nlm;a\rangle$$
 
 After carrying out the angular integration, this inner product reduces to:
 
