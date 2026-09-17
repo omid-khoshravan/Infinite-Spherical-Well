@@ -38,7 +38,7 @@ $$A_{Nl}^{(a)} = \frac{\sqrt{2}}{a^{3/2}|j_{l+1}(\beta_{Nl})|}$$
 
 The corresponding energy eigenvalue is
 
-$$E_{Nl}^{(a)} = \frac{\hbar^2\beta_{Nl}^2}{a^{3/2}|j_{l + 1}(\beta_{Nl})}|$$
+$$E_{Nl}^{(a)} = \frac{\hbar^2\beta_{Nl}^2}{a^{3/2}|j_{l + 1}(\beta_{Nl})|}$$
 
 ## Sudden Expansion
 
@@ -106,6 +106,13 @@ The project uses:
 - mpmath
 - Matplotlib
 - Jupyter Notebook
+
+Clone the repository and install the required Python packages:
+```bash
+git clone https://github.com/omid-khoshravan/Infinite-Spherical-Well.git
+cd Infinitie-Spherical-Well
+pip install -r requirements.txt
+```
 
 ## Notes
 The default implementation uses natural units with
